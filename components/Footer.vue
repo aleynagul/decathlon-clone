@@ -150,6 +150,10 @@ export default {
 .footer-column ul {
   list-style: none;
   padding: 0;
+
+
+
+
 }
 
 .footer-column li {
@@ -177,4 +181,6 @@ export default {
   display: flex;
   gap:10px;
 }
+
+
 </style>
