@@ -1,8 +1,8 @@
-// plugins/firebaseConfig.ts
 import { initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 
+// Your web app's Firebase configuration
 const firebaseConfig = {
     apiKey: "AIzaSyAY1vYhBmNanVxs6_ADESsRuQqRLLO4A-A",
     authDomain: "decathlonclone.firebaseapp.com",
