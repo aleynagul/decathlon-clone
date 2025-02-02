@@ -107,19 +107,30 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 25px;
-  padding: 50px 0;
+  gap: 15px;
+  padding: 15px 0;
   background-color: #3643ba;
   color: white;
   font-weight: bold;
+  flex-wrap: wrap; /* Küçük ekranlarda taşmayı engeller */
+}
+.footer-item span {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Resim ile yazı arasındaki boşluk */
 }
 
 .footer-top img {
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
   margin-right: 5px;
 }
-
+.footer-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
 .footer-content {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

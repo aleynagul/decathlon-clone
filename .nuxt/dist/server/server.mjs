@@ -1,0 +1,1 @@
+export { default } from "file:///Users/aleynagulkazdal/Desktop/decathlon-clone/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"
