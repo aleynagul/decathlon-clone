@@ -74,11 +74,15 @@
     <div class="footer-bottom">
       <div class="social-media">
         <h3>Bizi Takip Et</h3>
+        <div class="flex">
         <a href="#"><img src="assets/facebook.svg" alt="Facebook" /></a>
         <a href="#"><img src="assets/instagram.svg" alt="Instagram" /></a>
         <a href="#"><img src="assets/linkedin.svg" alt="LinkedIn" /></a>
+      </div>
+      <div class="flex">
         <a href="#"><img src="assets/tiktok.svg" alt="TikTok" /></a>
         <a href="#"><img src="assets/youtube.svg" alt="YouTube" /></a>
+      </div>
       </div>
       <div class="mobile-experience">
         <h3>Decathlon Deneyimini Mobile Sürdür</h3>
@@ -168,5 +172,9 @@ export default {
   width: 40px;
   height: 40px;
   margin-right: 10px;
+}
+.flex{
+  display: flex;
+  gap:10px;
 }
 </style>
